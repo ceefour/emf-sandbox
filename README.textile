@@ -2,7 +2,9 @@ h1. EMF Sandbox
 
 h2. Project List
 
-1. *xml-ecoreonly*: Mapping from Ecore to XML (XSD) and back. You can export the Ecore+genmodel to XSD.
+1. *xml-reflection*: Mapping from Ecore to XML (XSD) and back. You can export the Ecore+genmodel to XSD.
    And edit the XML using an XML Schema-aware editor.
    An XML file can be read and written using EMF with just loading the EPackage from the @.ecore@ file,
    not needing the generated EPackage Java classes.
+   Note that Ecore reflection with XMLResourceFactoryImpl is different from GenericXMLResourceFactoryImpl.
+   With XMLResourceFactoryImpl you get EClass and EAttribute instances that represent the actual metamodel (Ecore), although you don't have the actual Java classes. With GenericXMLResourceFactoryImpl you get DocumentRoot and AnyType, the equivalent of DOM.
