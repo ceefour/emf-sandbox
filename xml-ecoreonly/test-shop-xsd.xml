@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shops xmlns="http://bippomall/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://bippomall/1.0 BippoMall.xsd">
+	<shop>
+		<city>It's working!!!!</city>
+	</shop>
+</shops>

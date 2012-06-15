@@ -1,0 +1,17 @@
+h1. Bippo Mall Admin
+
+h2. Building The Project
+
+It requires Eclipse EMF libraries as Maven artifacts,
+which are not available in Maven Central repository.
+
+Either use a Eclipse Modeling 3.7.2 or download EMF 2.7.1 from EMF website. 
+
+Install the artifacts (from Eclipse @plugins@ folder) into your local Maven repository.
+
+bc. mvn install:install-file -Dpackaging=jar -DgroupId=org.eclipse.emf -DartifactId=org.eclipse.emf.common -Dversion=2.7.0.v20120127-1122 -Dfile=org.eclipse.emf.common_2.7.0.v20120127-1122.jar
+mvn install:install-file -Dpackaging=jar -DgroupId=org.eclipse.emf -DartifactId=org.eclipse.emf.common -Dversion=2.7.0.v20120127-1122 -Dclassifier=sources -Dfile=org.eclipse.emf.common.source_2.7.0.v20120127-1122.jar
+mvn install:install-file -Dpackaging=jar -DgroupId=org.eclipse.emf -DartifactId=org.eclipse.emf.ecore -Dversion=2.7.0.v20120127-1122 -Dfile=org.eclipse.emf.ecore_2.7.0.v20120127-1122.jar 
+mvn install:install-file -Dpackaging=jar -DgroupId=org.eclipse.emf -DartifactId=org.eclipse.emf.ecore -Dversion=2.7.0.v20120127-1122 -Dclassifier=sources -Dfile=org.eclipse.emf.ecore.source_2.7.0.v20120127-1122.jar
+mvn install:install-file -Dpackaging=jar -DgroupId=org.eclipse.emf -DartifactId=org.eclipse.emf.ecore.xmi -Dversion=2.7.0.v20120127-1122 -Dfile=org.eclipse.emf.ecore.xmi_2.7.0.v20120127-1122.jar 
+mvn install:install-file -Dpackaging=jar -DgroupId=org.eclipse.emf -DartifactId=org.eclipse.emf.ecore.xmi -Dversion=2.7.0.v20120127-1122 -Dclassifier=sources -Dfile=org.eclipse.emf.ecore.xmi.source_2.7.0.v20120127-1122.jar

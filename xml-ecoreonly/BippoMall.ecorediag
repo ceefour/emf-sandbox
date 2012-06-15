@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_f2INAbZAEeGGIcG4OsC-LA" type="EcoreTools" name="BippoMall" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_jDC08LZAEeGGIcG4OsC-LA" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_jDEDELZAEeGGIcG4OsC-LA" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_jDFRMLZAEeGGIcG4OsC-LA" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_k5VoMLZAEeGGIcG4OsC-LA" type="2001">
+        <element xmi:type="ecore:EAttribute" href="BippoMall.ecore#//Shop/id"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_k5VoMbZAEeGGIcG4OsC-LA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_lYXGgLZAEeGGIcG4OsC-LA" type="2001">
+        <element xmi:type="ecore:EAttribute" href="BippoMall.ecore#//Shop/name"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_lYXGgbZAEeGGIcG4OsC-LA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_l0DkALZAEeGGIcG4OsC-LA" type="2001">
+        <element xmi:type="ecore:EAttribute" href="BippoMall.ecore#//Shop/city"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_l0DkAbZAEeGGIcG4OsC-LA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_maIFgLZAEeGGIcG4OsC-LA" type="2001">
+        <element xmi:type="ecore:EAttribute" href="BippoMall.ecore#//Shop/state"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_maIFgbZAEeGGIcG4OsC-LA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_pMlmELZAEeGGIcG4OsC-LA" type="2001">
+        <element xmi:type="ecore:EAttribute" href="BippoMall.ecore#//Shop/country"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_pMlmEbZAEeGGIcG4OsC-LA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_py4KALZAEeGGIcG4OsC-LA" type="2001">
+        <element xmi:type="ecore:EAttribute" href="BippoMall.ecore#//Shop/yearSince"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_py4xELZAEeGGIcG4OsC-LA"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_jDFRMbZAEeGGIcG4OsC-LA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_jDFRMrZAEeGGIcG4OsC-LA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_jDFRM7ZAEeGGIcG4OsC-LA"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_jDF4QLZAEeGGIcG4OsC-LA" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_jDF4QbZAEeGGIcG4OsC-LA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_jDF4QrZAEeGGIcG4OsC-LA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_jDF4Q7ZAEeGGIcG4OsC-LA"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_jDC08bZAEeGGIcG4OsC-LA" fontColor="4210752" fontName="Ubuntu" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="BippoMall.ecore#//Shop"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jDC08rZAEeGGIcG4OsC-LA" x="170" y="120"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_f2INArZAEeGGIcG4OsC-LA"/>
+  <element xmi:type="ecore:EPackage" href="BippoMall.ecore#/"/>
+</notation:Diagram>

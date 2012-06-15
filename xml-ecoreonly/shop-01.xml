@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Sample Shops. minimum edition.
+
+file:///home/ceefour/git/bippo-commerce/mall-admin/BippoMall.ecore
+file:///home/ceefour/git/bippo-commerce/mall-admin/BippoMall.xsd
+-->
+<mall:shops xmlns:mall="http://bippomall/1.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://bippomall/1.0 file:///home/ceefour/git/bippo-commerce/mall-admin/BippoMall.xsd">
+
+    <shop>
+		<id>zibalabel</id>
+		<name>Ziba Label</name>
+		<city>Jakarta</city>
+		<state>DKI Jakarta</state>
+		<country>Indonesia</country>
+		<sinceYear xsi:nil="true"/>
+    </shop>
+    <shop>
+		<id>lenny_agustin</id>
+		<name>Lenny Agustin</name>
+		<city>Jakarta</city>
+		<state>DKI Jakarta</state>
+		<country>Indonesia</country>
+		<sinceYear xsi:nil="true"/>
+    </shop>
+    <shop>
+		<id>edward_hutabarat</id>
+		<name>Edward Hutabarat</name>
+		<city>Jakarta</city>
+		<state>DKI Jakarta</state>
+		<country>Indonesia</country>
+		<sinceYear xsi:nil="true"/>
+    </shop>
+
+</mall:shops>
