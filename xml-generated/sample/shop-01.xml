@@ -15,7 +15,7 @@ file:///home/ceefour/git/emf-sandbox/xml-reflection/model/BippoMall.xsd
 		<city>Jakarta</city>
 		<state>DKI Jakarta</state>
 		<country>Indonesia</country>
-		<sinceYear xsi:nil="true"/>
+		<sinceYear>1990</sinceYear>
     </shop>
     <shop>
 		<id>lenny_agustin</id>
