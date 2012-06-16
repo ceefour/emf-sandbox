@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xsd:schema xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ecore:nsPrefix="bippomall" ecore:package="bippomall">
+  <xsd:import namespace="http://www.eclipse.org/emf/2002/Ecore" schemaLocation="platform:/plugin/org.eclipse.emf.ecore/model/Ecore.xsd"/>
+  <xsd:element ecore:ignore="true" name="shop" type="shop"/>
+  <xsd:element ecore:ignore="true" name="shops" type="shops"/>
+  <xsd:complexType ecore:name="Shop" name="shop">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="id" type="ecore:EString"/>
+      <xsd:element minOccurs="0" name="name" type="ecore:EString"/>
+      <xsd:element minOccurs="0" name="city" type="ecore:EString"/>
+      <xsd:element minOccurs="0" name="state" type="ecore:EString"/>
+      <xsd:element minOccurs="0" name="country" type="ecore:EString"/>
+      <xsd:element ecore:unsettable="false" minOccurs="0" name="sinceYear" type="ecore:EInt"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType ecore:name="ShopList" name="shops">
+    <xsd:sequence>
+      <xsd:element ecore:name="shops" ecore:resolveProxies="true" maxOccurs="unbounded" minOccurs="0" name="shop" type="shop"/>
+    </xsd:sequence>
+  </xsd:complexType>
+</xsd:schema>
