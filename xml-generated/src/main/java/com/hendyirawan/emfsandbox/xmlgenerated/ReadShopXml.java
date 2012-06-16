@@ -17,6 +17,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.google.common.collect.Lists;
+import com.hendyirawan.emfsandbox.xmlgenerated.bippomall.BippomallPackage;
 
 /**
  * @author ceefour
@@ -40,19 +41,11 @@ public class ReadShopXml {
 		rs.getLoadOptions().put(XMLResource.OPTION_EXTENDED_META_DATA,
 				extendedMetaData);
 
-		// Load the (non-generated) metamodel
-		URI mallMetaUri = URI
-				.createFileURI("model/BippoMall.ecore");
-		Resource mallMetaRes = rs.getResource(mallMetaUri, true);
-		EPackage mallPackage = (EPackage) mallMetaRes.getContents().get(0);
-//		EcoreUtil.resolveAll(rs); // probably needed for some metamodels
-		for (Resource res : rs.getResources()) {
-			log.info("Resource {}", res);
-		}
+		// Load the generated metamodel
+		BippomallPackage mallPackage = BippomallPackage.eINSTANCE;
+		
 		// register the package
-//		rs.getPackageRegistry().put(null, mallPackage);
 		rs.getPackageRegistry().put(mallPackage.getNsURI(), mallPackage);
-//		EPackage.Registry.INSTANCE.put(mallPackage.getNsURI(), mallPackage);
 		log.info("Global Package registry {}", EPackage.Registry.INSTANCE.entrySet());
 		log.info("Package registry {}", rs.getPackageRegistry());
 

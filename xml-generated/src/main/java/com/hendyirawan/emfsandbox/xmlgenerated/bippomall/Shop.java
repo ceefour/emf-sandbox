@@ -169,12 +169,12 @@ public interface Shop extends EObject {
 	 * </p>
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Since Year</em>' attribute.
-	 * @see #setSinceYear(int)
+	 * @see #setSinceYear(Integer)
 	 * @see com.hendyirawan.emfsandbox.xmlgenerated.bippomall.BippomallPackage#getShop_SinceYear()
 	 * @model extendedMetaData="kind='element'"
 	 * @generated
 	 */
-	int getSinceYear();
+	Integer getSinceYear();
 
 	/**
 	 * Sets the value of the '{@link com.hendyirawan.emfsandbox.xmlgenerated.bippomall.Shop#getSinceYear <em>Since Year</em>}' attribute.
@@ -184,6 +184,6 @@ public interface Shop extends EObject {
 	 * @see #getSinceYear()
 	 * @generated
 	 */
-	void setSinceYear(int value);
+	void setSinceYear(Integer value);
 
 } // Shop

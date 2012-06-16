@@ -21,5 +21,7 @@ public interface ShopValidator {
 	boolean validateCity(String value);
 	boolean validateState(String value);
 	boolean validateCountry(String value);
+	boolean validateSinceYear(Integer value);
+
 	boolean validateSinceYear(int value);
 }

@@ -13,7 +13,7 @@ Package bippomall <http://bippomall/1.0>
     Attribute city : EString
     Attribute state : EString
     Attribute country : EString
-    Attribute sinceYear : EInt
+    Attribute sinceYear : EIntegerObject
 
   Class ShopList
     Reference shops : Shop<<0..*>>

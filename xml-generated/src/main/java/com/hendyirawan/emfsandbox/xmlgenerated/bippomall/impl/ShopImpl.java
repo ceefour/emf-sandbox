@@ -143,7 +143,7 @@ public class ShopImpl extends EObjectImpl implements Shop {
 	 * @generated
 	 * @ordered
 	 */
-	protected static final int SINCE_YEAR_EDEFAULT = 0;
+	protected static final Integer SINCE_YEAR_EDEFAULT = null;
 
 	/**
 	 * The cached value of the '{@link #getSinceYear() <em>Since Year</em>}' attribute.
@@ -153,7 +153,7 @@ public class ShopImpl extends EObjectImpl implements Shop {
 	 * @generated
 	 * @ordered
 	 */
-	protected int sinceYear = SINCE_YEAR_EDEFAULT;
+	protected Integer sinceYear = SINCE_YEAR_EDEFAULT;
 
 	/**
 	 * <!-- begin-user-doc -->
@@ -284,7 +284,7 @@ public class ShopImpl extends EObjectImpl implements Shop {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public int getSinceYear() {
+	public Integer getSinceYear() {
 		return sinceYear;
 	}
 
@@ -293,8 +293,8 @@ public class ShopImpl extends EObjectImpl implements Shop {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setSinceYear(int newSinceYear) {
-		int oldSinceYear = sinceYear;
+	public void setSinceYear(Integer newSinceYear) {
+		Integer oldSinceYear = sinceYear;
 		sinceYear = newSinceYear;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, BippomallPackage.SHOP__SINCE_YEAR, oldSinceYear, sinceYear));
@@ -403,7 +403,7 @@ public class ShopImpl extends EObjectImpl implements Shop {
 			case BippomallPackage.SHOP__COUNTRY:
 				return COUNTRY_EDEFAULT == null ? country != null : !COUNTRY_EDEFAULT.equals(country);
 			case BippomallPackage.SHOP__SINCE_YEAR:
-				return sinceYear != SINCE_YEAR_EDEFAULT;
+				return SINCE_YEAR_EDEFAULT == null ? sinceYear != null : !SINCE_YEAR_EDEFAULT.equals(sinceYear);
 		}
 		return super.eIsSet(featureID);
 	}
