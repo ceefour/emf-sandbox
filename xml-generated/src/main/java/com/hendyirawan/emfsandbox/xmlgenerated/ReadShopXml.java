@@ -57,8 +57,6 @@ public class ReadShopXml {
 		// register .xml extension locally in the ResourceSet
 		rs.getResourceFactoryRegistry().getExtensionToFactoryMap()
 				.put("xml", new XMLResourceFactoryImpl());
-//		 rs.getResourceFactoryRegistry().getExtensionToFactoryMap()
-//		 .put("xml", new GenericXMLResourceFactoryImpl());
 		URI fileUri = URI
 				.createFileURI("sample/shop-01.xml");
 		Resource shopsResource = rs.getResource(fileUri, true);
