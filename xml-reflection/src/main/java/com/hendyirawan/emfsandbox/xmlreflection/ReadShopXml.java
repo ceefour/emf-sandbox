@@ -45,7 +45,7 @@ public class ReadShopXml {
 
 		// Load the (non-generated) metamodel
 		URI mallMetaUri = URI
-				.createFileURI("/home/ceefour/git/bippo-commerce/mall-admin/BippoMall.ecore");
+				.createFileURI("model/BippoMall.ecore");
 		Resource mallMetaRes = rs.getResource(mallMetaUri, true);
 		EPackage mallPackage = (EPackage) mallMetaRes.getContents().get(0);
 //		EcoreUtil.resolveAll(rs); // probably needed for some metamodels
@@ -68,7 +68,7 @@ public class ReadShopXml {
 //		 rs.getResourceFactoryRegistry().getExtensionToFactoryMap()
 //		 .put("xml", new GenericXMLResourceFactoryImpl());
 		URI fileUri = URI
-				.createFileURI("/home/ceefour/git/bippo-models/commerce/berbatik-shop-01.xml");
+				.createFileURI("sample/shop-01.xml");
 		Resource shopsResource = rs.getResource(fileUri, true);
 		
 		for (EObject content : Lists.newArrayList(shopsResource.getAllContents())) {

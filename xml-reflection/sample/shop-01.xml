@@ -2,12 +2,12 @@
 <!--
 Sample Shops. minimum edition.
 
-file:///home/ceefour/git/bippo-commerce/mall-admin/BippoMall.ecore
-file:///home/ceefour/git/bippo-commerce/mall-admin/BippoMall.xsd
+file:///home/ceefour/git/emf-sandbox/xml-reflection/model/BippoMall.ecore
+file:///home/ceefour/git/emf-sandbox/xml-reflection/model/BippoMall.xsd
 -->
 <mall:shops xmlns:mall="http://bippomall/1.0"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://bippomall/1.0 file:///home/ceefour/git/bippo-commerce/mall-admin/BippoMall.xsd">
+	xsi:schemaLocation="http://bippomall/1.0 ../model/BippoMall.xsd">
 
     <shop>
 		<id>zibalabel</id>

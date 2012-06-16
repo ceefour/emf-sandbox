@@ -1,4 +1,4 @@
-h1. Bippo Mall Admin
+h1. EMF Sandbox: Reflective XML Mapping using .ecore file schema/metamodel
 
 h2. Building The Project
 
